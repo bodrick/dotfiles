@@ -65,6 +65,11 @@ symbol = ""
 style = "bg:#86BBD8"
 format = '[ $symbol ($version) ]($style)'
 
+[conda]
+symbol = ""
+style = "bg:#86BBD8"
+format = '[ $symbol $environment ]($style)'
+
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
